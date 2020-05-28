@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Microsoft JhengHei", Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 32px;
+    font-family: MicrosoftJhengHeiLight;
+}
+/* header */
+header{
+    background-image: url(./img/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+header .container{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 60px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+nav ul  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav ul li a{
+    color: #fff;
+}
+.share {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.title{
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    right: 50%;
+}

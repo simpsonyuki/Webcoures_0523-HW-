@@ -96,3 +96,37 @@ section{
     text-align: left;
     line-height: 30px;
 }
+
+/* 推薦飲品 #product */
+#product{
+    position: relative;
+}
+.main-pro{
+    text-align: center;
+}
+.pro-txt{
+    display: block;
+    width: 220px;
+    position: absolute;
+    right: 500px;
+    top:200px;
+}
+.pro-txt h3{
+    text-align: center;
+    color:#f5bb28;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.pro-txt span{
+    display: block;
+    text-align: center;
+    color: #cccccc;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.pro-txt p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 50px;
+}

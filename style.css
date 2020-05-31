@@ -7,10 +7,14 @@
 }
 a{
     text-decoration: none;
+    transition: ease-in 0.2s;
+}
+a:hover{
+    color: #555;
 }
 h2{
     font-size: 32px;
-    font-family: MicrosoftJhengHeiLight;
+    /* font-family: MicrosoftJhengHeiLight; */
     text-align: center;
     margin: 45px auto 60px auto;
 }
@@ -18,6 +22,7 @@ body{
     background-image: url(./img/bg.png);
     background-repeat: repeat;
     background-position: center;
+    color: #252525;
 }
 /* header */
 header{
@@ -129,4 +134,62 @@ section{
     margin-top: 20px;
     font-size: 20px;
     line-height: 50px;
+}
+
+/* company 經營理念 */
+/* .company-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+} */
+.company-grid{
+    text-align: center;
+}
+.company-img, .company-txt {
+    display: inline-block;
+}
+.company-img{
+    font-size: 0;
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 20px;
+}
+.company-txt{
+    text-align: left;
+    vertical-align: top;
+    font-size: 24px;
+    letter-spacing: 7px;
+}
+.company-txt h3, .company-txt p {
+    margin-bottom: 50px;
+}
+.more{
+    display: inline-block;
+    border: #000 2px solid;
+    padding: 15px 65px;
+}
+
+/* footer */
+footer{
+    height: 400px;
+    text-align: center;
+    padding-top: 150px;
+}
+.footer-logo{
+    margin-bottom: 70px;
+}
+.copyright p{
+    padding-bottom: 14px;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.copyright p a{
+    color: #252525;
+    transition: ease-in 0.2s;
+}
+
+.copyright p a:hover{
+    color: #555;
 }
